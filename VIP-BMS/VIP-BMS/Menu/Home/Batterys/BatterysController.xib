@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BatterysController">
+            <connections>
+                <outlet property="bgView" destination="KnM-hw-zF9" id="qcw-af-4Jz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GOg-GF-fIb">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KnM-hw-zF9">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="KnM-hw-zF9" firstAttribute="top" secondItem="GOg-GF-fIb" secondAttribute="top" id="4ap-rl-mDG"/>
+                        <constraint firstItem="KnM-hw-zF9" firstAttribute="width" secondItem="GOg-GF-fIb" secondAttribute="width" id="Duj-d6-Pi9"/>
+                        <constraint firstItem="KnM-hw-zF9" firstAttribute="height" secondItem="GOg-GF-fIb" secondAttribute="height" priority="250" id="NbG-c1-eDY"/>
+                        <constraint firstAttribute="trailing" secondItem="KnM-hw-zF9" secondAttribute="trailing" id="ah8-pJ-h7I"/>
+                        <constraint firstItem="KnM-hw-zF9" firstAttribute="leading" secondItem="GOg-GF-fIb" secondAttribute="leading" id="hat-UL-Uhb"/>
+                        <constraint firstAttribute="bottom" secondItem="KnM-hw-zF9" secondAttribute="bottom" id="vN0-fK-lCH"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VTW-9M-7FV"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GOg-GF-fIb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OMu-NZ-sDM"/>
+                <constraint firstAttribute="bottom" secondItem="GOg-GF-fIb" secondAttribute="bottom" id="SyY-u3-zvu"/>
+                <constraint firstItem="GOg-GF-fIb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kRm-Y7-U4t"/>
+                <constraint firstAttribute="trailing" secondItem="GOg-GF-fIb" secondAttribute="trailing" id="sKX-92-xb5"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="115"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,6 @@
+framework module GRMBluetooth {
+  umbrella header "GRMBluetooth.h"
+
+  export *
+  module * { export * }
+}

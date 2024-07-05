@@ -1,0 +1,133 @@
+/* 
+  Localizable.strings
+  VIP-BMS
+
+  Created by goorume on 2020/5/24.
+  Copyright © 2020 goorume. All rights reserved.
+*/
+
+
+"搜索设备" = "Search device";
+"搜索" = "Scan";
+"目前暂时没有设备" = "No device";
+"继续搜索" = "Continue searching";
+"请输入密码" = "Please input a password";
+"密码长度6~15" = "Password length 6-15";
+"密码错误" = "Password error";
+"蓝牙断开连接" = "Disconnect";
+
+"唯美冠泽" = "VIP-BMS";
+"切换语言" = "中文";
+"参数设置_目录" = "EEPROM";
+"蓝牙搜索" = "Search Devices";
+"预估容量还有" = "Battery capacity ";
+"温度1" = "TS1";
+"温度2" = "TS2";
+"温度3" = "TS3";
+"温度4" = "TS4";
+"温度5" = "TS5";
+"温度6" = "TS6";
+"温度7" = "TS7";
+"温度8" = "TS8";
+"总电压(V)" = "Total voltage(V)";
+"总电流(A)" = "Total current(A)";
+"单体最小电压(V)" = "L VOLTAGE(V)";
+"单体最大电压(V)" = "H VOLTAGE(V)";
+"压差(V)" = "Disparity(V)";
+"充电MOS" = "C MOS";
+"放电MOS" = "D MOS";
+"查询单节电压" = "Single battery\nvoltage";
+"查询详细参数" = "Detailed parameters";
+
+"每串电池电压" = "Single cell voltage";
+
+"电池基本信息" = "Essential information";
+"基本信息" = "Essential information";
+"序列号" = "Serial number";
+"生产日期" = "Date of manufacture";
+"设计容量" = "Design capacity";
+"设计电压" = "Design voltage";
+"充满容量" = "Maximum capacity";
+"循环次数" = "Discharge times";
+"次" = "times";
+
+"充电状态" = "State of charge";
+"充电状态_过流保护" = "SOCC";
+"充电状态_过温" = "OTC";
+"充电状态_低温" = "UTC";
+"充电状态_电芯过充" = "COV";
+"充电状态_电池过充" = "FC";
+"充电状态_充电MOS" = "CHG";
+
+"充电预警" = "Charging warning";
+"充电预警_过流" = "OCC1";
+"充电预警_过温" = "OTC";
+"充电预警_低温" = "UTC1";
+"充电预警_压差" = "DP";
+"充电预警_充电充满" = "FC";
+
+"放电状态" = "Discharge state";
+"放电状态_过流保护" = "SOCD";
+"放电状态_过温" = "OTD";
+"放电状态_低温" = "UTD";
+"放电状态_电芯过放" = "CUV";
+"放电状态_电池过放" = "FD";
+"放电状态_短路保护" = "ASCD";
+"放电状态_终止放电" = "TDA";
+"放电状态_放电MOS" = "DSG";
+
+"放电预警" = "Discharge warning";
+"放电预警_过流" = "OCD1";
+"放电预警_过温" = "OTD1";
+"放电预警_低温" = "UTD1";
+"放电预警_压差" = "DP";
+"放电预警_剩余时间不足" = "RTA";
+"放电预警_终止放电" = "TDA";
+"放电预警_剩余容量不足" = "RCA";
+"放电预警_电芯过放" = "CUV";
+"放电预警_电池过放" = "FD";
+
+"参数设置" = "Param Setting";
+"满充容量" = "Full Capacity";
+"单节过充保护电压" = "COV";
+"单节过充保护恢复电压" = "COVC";
+"单节过放保护电压" = "CUV";
+"单节过放保护恢复电压" = "CUVC";
+"电池组过充电压值" = "BAT Over charge";
+"电池组过充释放" = "BAT Over charge Release";
+"电池组过放电压值" = "BAT Over Discharge";
+"电池组过放释放" = "BAT Over Discharge Release";
+"充电高温保护" = "OTC";
+"充电高温保护恢复" = "OTCC";
+"充电低温保护" = "CTC";
+"充电低温保护恢复" = "CTCC";
+"放电高温保护" = "OTD";
+"放电高温保护恢复" = "OTDC";
+"放电低温保护" = "UTD";
+"放电低温保护恢复" = "UTDC";
+"充到100%时的电流" = "Taper Current";
+"放到0%时的电压" = "Pack Low Voltage";
+"充到100%时的电压" = "Full Voltage";
+
+"确定" = "OK";
+"取消" = "Cancel";
+"修改成功" = "Succeeded";
+"修改失败" = "Modification failed";
+"请输入合适的范围" = "Please enter the appropriate value";
+
+"隐私政策" = "Privacy policy";
+"校准" = "Cal";
+"校准电流" = "Calibration Current";
+"请输入要过滤的名称" = "Please Input Filter Name";
+"过滤" = "Filter";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+
+
+
+
+
